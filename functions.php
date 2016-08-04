@@ -20,6 +20,14 @@ if ( ! function_exists( 'omartheme_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+function firsttheme()
+	echo "This is so cool";
+
+add_action('firsttheme');
+
+	
+
+
 function omartheme_setup() {
 	/*
 	 * Make theme available for translation.
